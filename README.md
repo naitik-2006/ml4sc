@@ -8,10 +8,10 @@ Below is a detailed overview of my approach regarding the evaluation task for GS
 
 ## Overview
 
-### 1. Simple Classification Task
+### 1.Common Task
 For the simple classification task, previous GSOC contributions suggest that various classification models perform similarly , with only minor differences. Based on this, I chose to work with the **EfficientNet** model because it is lightweight and efficient.
 
-### 2. Physics Guided Model
+### 2. Specific Task 5 (Physics-Guided ML)
 For the physics-guided model, I explored two approaches. Ultimately, the second approach (inspired by previous GSOC contributions) worked better.
 
 #### a. Incorporating the Gravitational Lensing Equation in the Loss Function
