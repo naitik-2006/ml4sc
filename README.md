@@ -14,6 +14,8 @@ For the simple classification task, previous GSOC contributions suggest that var
 ### 2. Specific Task 5 (Physics-Guided ML)
 For the physics-guided model, I explored two approaches. Ultimately, the second approach (inspired by previous GSOC contributions) worked better.
 
+*Now I figured out where I have done the mistake. My approach A was totally wrong , It had some baseless assumption*
+
 #### a. Incorporating the Gravitational Lensing Equation in the Loss Function
 Initially, I attempted to train a model by incorporating the gravitational lensing equation directly into the loss function. The idea was as follows:
 - Using the gravitational lensing equation, we can predict the source (unlensed) image when given an observed (lensed) image.
