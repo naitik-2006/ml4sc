@@ -2,17 +2,17 @@
 
 Hello everyone, my name is **Naitik Agrawal**.
 
-Below is a detailed overview of my approach regarding the evaluation task for GSOC.
+Below is a detailed overview of my approach regarding the evaluation task
 
 ---
 
 ## Overview
 
 ### 1.Common Task
-For the simple classification task, previous GSOC contributions suggest that various classification models perform similarly , with only minor differences. Based on this, I chose to work with the **EfficientNet** model because it is lightweight and efficient.
+For the simple classification task, previous contributions suggest that various classification models perform similarly , with only minor differences. Based on this, I chose to work with the **EfficientNet** model because it is lightweight and efficient.
 
 ### 2. Specific Task 5 (Physics-Guided ML)
-For the physics-guided model, I explored three approaches. Ultimately, the second, third approach (inspired by previous GSOC contributions) worked better.
+For the physics-guided model, I explored three approaches. Ultimately, the second, third approach (inspired by previous contributions) worked better.
 
 *Now I figured out where I have done the mistake. My approach A was totally wrong , It had some baseless assumption*
 
@@ -24,7 +24,7 @@ Initially, I attempted to train a model by incorporating the gravitational lensi
 However, this approach failed significantly. I suspect that my understanding of the physics was not entirely correct, and I am open to feedback on where my assumptions may be mistaken.
 
 #### b. Physics-Informed Features Approach
-Inspired by a previous GSOC contributor (SVJLucas), I adopted an approach using a class called `PhysicsInformedFeature` ([link to GitHub repository](https://github.com/ML4SCI/DeepLense/blob/main/Physics_Informed_Transformers_For_Dark-Matter_Morphology_Lucas_Jose/Physics%20Informed%20Features%20For%20Dark%20Matter%20Morphology/examples/example.ipynb)). 
+Inspired by a previous contributor (SVJLucas), I adopted an approach using a class called `PhysicsInformedFeature` ([link to GitHub repository](https://github.com/ML4SCI/DeepLense/blob/main/Physics_Informed_Transformers_For_Dark-Matter_Morphology_Lucas_Jose/Physics%20Informed%20Features%20For%20Dark%20Matter%20Morphology/examples/example.ipynb)). 
 
 This approach involves:
 - Extracting the source image and the gravitational distortion map from the observed image.
